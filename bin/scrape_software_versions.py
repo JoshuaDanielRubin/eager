@@ -20,6 +20,7 @@ regexes = {
     'bamUtil' : ['v_bamutil.txt', r"Version: (\S+);"],
     'fastP': ['v_fastp.txt', r"([\d\.]+)"],
     'DamageProfiler' : ['v_damageprofiler.txt', r"DamageProfiler v(\S+)"],
+    'HaploCart' : ['v_haplocart.txt'],
     'angsd':['v_angsd.txt',r"version: (\S+)"],
     'bedtools':['v_bedtools.txt',r"bedtools v(\S+)"],
     'circulargenerator':['v_circulargenerator.txt',r"CircularGeneratorv(\S+)"],
@@ -54,6 +55,7 @@ results['circulargenerator'] = '<span style="color:#999999;\">N/A</span>'
 results['Samtools'] = '<span style="color:#999999;\">N/A</span>'
 results['endorS.py'] = '<span style="color:#999999;\">N/A</span>'
 results['DeDup'] = '<span style="color:#999999;\">N/A</span>'
+results['HaploCart'] = '<span style="color:#999999;\">N/A</span>'
 results['Picard MarkDuplicates'] = '<span style="color:#999999;\">N/A</span>'
 results['Qualimap'] = '<span style="color:#999999;\">N/A</span>'
 results['Preseq'] = '<span style="color:#999999;\">N/A</span>'

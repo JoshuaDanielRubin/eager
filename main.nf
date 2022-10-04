@@ -2449,6 +2449,27 @@ process genotyping_hc {
     """
 }
 
+
+  // HaploCart for haplogroup classification on single-source human mtDNA
+process haplocart {
+    publishDir "${params.outdir}/haplocart", mode: 'copy'
+
+    when:
+    params.run_haplocart
+
+    input:
+    ????
+
+    output:
+    ????
+
+    script:
+    """
+    echo "I have been haplocarted" > ${fq}  
+    mv ${fq} ${fq}.pG.fq
+    """
+}
+
  // Freebayes for 'more efficient/simple' and more generic genotyping (vs HC) 
 
 process genotyping_freebayes {
